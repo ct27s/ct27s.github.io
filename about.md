@@ -1,12 +1,3 @@
- ============================================
-# FILE: about.md (Biography page)
-# ============================================
----
-layout: default
-title: About
-permalink: /about/
----
-
 # About Me
 
 Write your biography here. You can use Markdown formatting:
