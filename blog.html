@@ -1,0 +1,22 @@
+# ============================================
+# FILE: blog.html (Blog listing page)
+# ============================================
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="blog">
+  <h1>Blog</h1>
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

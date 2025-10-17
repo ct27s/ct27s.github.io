@@ -1,0 +1,15 @@
+title: casomatica
+description: personal website
+url: "https://casomatica.github.io"
+baseurl: ""
+
+# Permalink structure for blog posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Social links (optional)
+github_username: ct27s
+twitter_username: yourusernam

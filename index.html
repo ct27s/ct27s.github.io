@@ -1,0 +1,25 @@
+# ============================================
+# FILE: index.html (Homepage)
+# ============================================
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+  <h1>Welcome</h1>
+  <p class="intro">Hi, I'm [Your Name]. This is my personal website where I share thoughts, projects, and more.</p>
+  
+  <section class="recent-posts">
+    <h2>Recent Posts</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="/blog/" class="view-all">View all posts →</a>
+  </section>
+</div>
