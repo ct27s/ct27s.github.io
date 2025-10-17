@@ -1,6 +1,6 @@
 title: casomatica
 description: personal website
-url: "https://casomatica.github.io"
+url: "https://ct27s.github.io"
 baseurl: ""
 
 # Permalink structure for blog posts
@@ -12,4 +12,3 @@ theme: minima
 
 # Social links (optional)
 github_username: ct27s
-twitter_username: yourusernam
